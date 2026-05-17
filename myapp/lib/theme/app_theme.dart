@@ -229,15 +229,13 @@ class AppTheme {
     ),
 
     textTheme: textThemeLight,
-
-    cardTheme: CardTheme(
-      color: cardLight,
-      elevation: 0,
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(radiusXl),
-        side: const BorderSide(color: borderLight),
-      ),
-    ),
+cardTheme: CardThemeData(
+  color: cardColor,
+  elevation: 0,
+  shape: RoundedRectangleBorder(
+    borderRadius: BorderRadius.circular(20),
+  ),
+),
 
     appBarTheme: const AppBarTheme(
       backgroundColor: backgroundLight,
